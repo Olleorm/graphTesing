@@ -109,7 +109,7 @@ class Graph extends React.Component {
           var pt = gctx.transformedPoint(lastX, yMidCordinate);
           gctx.translate(pt.x - dragStart.x, 0);
 
-          redrawXmove();
+          redraw();
         }
       },
       false
